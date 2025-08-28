@@ -1,8 +1,95 @@
-# LibraryProject
+📘 Django Setup Guide – LibraryProject
+🎯 Objective
 
-This is a Django project created to explore the basics of Django.
+Gain familiarity with Django by setting up a Django development environment and creating a basic Django project. You will:
 
-## Setup Instructions
-1. Install dependencies:
-   ```bash
-   pip install django
+Install Django
+
+Create a new project (LibraryProject)
+
+Run the development server
+
+Explore Django’s default project structure
+
+⚙️ Prerequisites
+
+Python (version 3.8+ recommended)
+
+pip (Python package manager)
+
+Verify installation:
+
+python --version
+pip --version
+
+🚀 Steps
+1. Install Django
+
+Run the following command to install Django:
+
+pip install django
+
+
+Confirm installation:
+
+django-admin --version
+
+2. Create Your Django Project
+
+Run this command to create a new project named LibraryProject:
+
+django-admin startproject LibraryProject
+
+3. Navigate Into Project Directory
+cd LibraryProject
+
+4. Run the Development Server
+
+Use the manage.py script to start the server:
+
+python manage.py runserver
+
+
+Visit the default Django welcome page in your browser:
+👉 http://127.0.0.1:8000/
+
+5. Create a README.md file
+
+Inside your project folder, create a README.md with this content:
+
+# 📘 LibraryProject  
+
+## Overview  
+LibraryProject is a starter Django project created to learn the basics of Django. It demonstrates the project structure, configuration, and development server setup.  
+
+## Steps Taken  
+1. Installed Django using pip  
+2. Created a Django project named `LibraryProject`  
+3. Ran the development server and confirmed it is working  
+4. Explored the Django project structure  
+
+## Project Structure  
+
+
+LibraryProject/
+│── LibraryProject/ # Main project folder
+│ ├── init.py # Marks the folder as a Python package
+│ ├── settings.py # Project settings & configuration
+│ ├── urls.py # URL routing for the project
+│ ├── asgi.py # Entry point for ASGI servers
+│ ├── wsgi.py # Entry point for WSGI servers
+│
+├── manage.py # Command-line utility for project management
+
+
+## Run the Server  
+```bash
+python manage.py runserver
+
+
+Open: http://127.0.0.1:8000/
+
+
+---
+
+Do you want me to also write the **exact commands you would run in sequence** (copy-paste ready), so you can follow them without missing any step?
